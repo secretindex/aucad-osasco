@@ -58,6 +58,7 @@ export type ActivesStandardType = {
   beneficioPrevidenciario: string
   tituloEleitor: string
   portariaPosse: string
+  ctps: string
   cnis: string
   uniao: string
 }
@@ -66,6 +67,7 @@ const activesStandard: ActivesStandardType = {
   cpf: "Qualquer documento contendo número do CPF",
   pis: "NIT/PIS/PASEP ou documento oficial que contenha a informação",
   cnis: "CNIS de Período Anterior ao seu ingresso no Município",
+  ctps: "Carteira de Trabalho (CTPS)",
   tituloEleitor: "Título de Eleitor",
   portariaPosse: "Portaria de Posse ou Carteira Funcional",
   beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meu.inss.gov.br",

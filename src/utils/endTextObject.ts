@@ -36,6 +36,7 @@ interface ActivesDocuments {
   estadoCivil: CivilStatusInvalid | CivilStatusValid
   pis: boolean
   cnis: boolean
+  ctps: boolean
   portariaPosse: boolean
   tituloEleitor: boolean
   beneficioPrevidenciario: boolean

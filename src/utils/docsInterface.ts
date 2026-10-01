@@ -3,6 +3,7 @@ export interface RequiredDocs {
   foto: boolean
   id: boolean
   pis: boolean
+  ctps: boolean
   residencia: boolean
   uniao: boolean
   casamento: boolean
@@ -224,6 +225,12 @@ export interface ActivesDocs {
     optionList: NestedOption[]
   }
   pis: {
+    name: string
+    required: boolean
+    present: boolean
+    optionList?: NestedOption[]
+  }
+  ctps: {
     name: string
     required: boolean
     present: boolean

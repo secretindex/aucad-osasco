@@ -140,6 +140,11 @@ const activesDocument: ActivesDocs = {
       },
     ],
   },
+  ctps: {
+    name: "Carteira de Trabalho",
+    required: true,
+    present: false,
+  },
   pis: {
     name: "PIS/PASEP ou NIT",
     required: true,
