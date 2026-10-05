@@ -140,53 +140,8 @@ const inactiveDocuments: InactivesInt = {
       },
     ],
   },
-  pis: {
-    name: "PIS/PASEP ou NIT",
-    required: true,
-    present: false,
-  },
   tituloEleitor: {
     name: "Titulo Eleitor",
-    required: true,
-    present: false,
-  },
-  laudoMedico: {
-    name: "Incapacidade Permanente",
-    required: true,
-    present: false,
-    optionList: [
-      {
-        label: "Laudo médico",
-        value: "lm/r",
-        children: [
-          {
-            label: "presente",
-            value: "lm/r/s"
-          },
-          {
-            label: "ausente",
-            value: "lm/r/a"
-          }
-        ]
-      },
-      {
-        label: "não requerido",
-        value: "lm/n",
-      },
-    ],
-  },
-  atoDeNomeacao: {
-    name: "Portaria de Nomeacao Cargo Efetivo",
-    required: true,
-    present: false,
-  },
-  atoDeConcessao: {
-    name: "Portaria de Concessão de Benefício",
-    required: true,
-    present: false,
-  },
-  beneficioPrevidenciario: {
-    name: "Declaração de Benefício Previdenciário",
     required: true,
     present: false,
   },

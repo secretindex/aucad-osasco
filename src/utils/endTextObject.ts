@@ -16,11 +16,11 @@ type DependentTypeInvalid = "deco/n" | "dp/n" | "tgc/n" | "dp/21" | "dep/id/n" |
 type DependentTypeValid = "deco/s" | "dp/s" | "tgc/s" | "cnd/s" | "dep/n"
 
 type ComprovanteRegistroProfissional = "crp/r" | "crp/n" | "crp/r/s" | "crp/r/a"
-type LaudoMedico = "lm/r" | "lm/n" | "lm/r/s" | "lm/r/a"
+// type LaudoMedico = "lm/r" | "lm/n" | "lm/r/s" | "lm/r/a"
 
-type CertidaoDeObitoExServidor = "co/r" | "co/n" | "co/r/s" | "co/r/a" 
-type atoNomeacaoExServidor = "ato/r" | "ato/n" | "ato/r/s" | "ato/r/a"
-type identidadeExServidor = "ide/v" | "ide/n" | "ide/v/s" | "ide/v/a"
+// type CertidaoDeObitoExServidor = "co/r" | "co/n" | "co/r/s" | "co/r/a" 
+// type atoNomeacaoExServidor = "ato/r" | "ato/n" | "ato/r/s" | "ato/r/a"
+// type identidadeExServidor = "ide/v" | "ide/n" | "ide/v/s" | "ide/v/a"
 
 // type CtcType = "ctc/s" | "ctc/r" | "ctc/cnis" | "ctc/ctps" | "ctc/pne" | "ctc/np"
 
@@ -50,24 +50,13 @@ export interface InactivesDocuments {
   id: IDInvalid | IDValid
   residencia: ResidenceInvalid | ResidenceValid
   estadoCivil: CivilStatusInvalid | CivilStatusValid
-  pis: boolean
   tituloEleitor: boolean
-  atoDeNomeacao: boolean
-  atoDeConcessao: boolean
-  beneficioPrevidenciario: boolean
-  laudoMedico: LaudoMedico
   depId: DependentTypeInvalid | DependentTypeValid
 }
 
 export interface PensionerDocuments {
   id: IDInvalid | IDValid
   residencia: ResidenceInvalid | ResidenceValid
-  certidaoDeObitoExServidor: CertidaoDeObitoExServidor
-  atoNomeacaoExServidor: atoNomeacaoExServidor
-  identidadeExServidor: identidadeExServidor
-  atoConcessaoPensao: boolean
-  declaracaoBeneficioPrevidenciario: boolean
-  pis: boolean
   estadoCivil: CivilStatusInvalid | CivilStatusValid
 }
 

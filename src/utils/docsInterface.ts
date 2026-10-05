@@ -85,55 +85,13 @@ export interface PensionerDocs {
     options: "valido" | "+60" | "terceiros" | undefined
     optionList: NestedOption[]
   }
-  pis: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
   tituloEleitor: {
     name: string
     required: boolean
     present: boolean
     optionList?: NestedOption[]
   }
-  atoConcessaoPensao: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  comprovacaoInvalidez: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
   comprovanteEstadoCivil: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  certidaoObitoExServidor: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  atoNomeacaoExServidor: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  declaracaoBeneficioPrevidenciario: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  identidadeExServidor: {
     name: string
     required: boolean
     present: boolean
@@ -160,37 +118,7 @@ export interface InactivesInt {
     options: "solteiro" | "casado" | "uniao" | undefined
     optionList: NestedOption[]
   }
-  pis: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  beneficioPrevidenciario: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
   tituloEleitor: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  laudoMedico: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  atoDeNomeacao: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  atoDeConcessao: {
     name: string
     required: boolean
     present: boolean

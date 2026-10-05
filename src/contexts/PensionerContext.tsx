@@ -6,12 +6,6 @@ export const pensionerContextDocs: PensionerDocuments = {
   id: "id/n",
   residencia: "cr/n",
   estadoCivil: "cns/nr",
-  pis: false,
-  certidaoDeObitoExServidor: "co/r/a",
-  atoNomeacaoExServidor: "ato/r/a",
-  identidadeExServidor: "ide/v/a",
-  declaracaoBeneficioPrevidenciario: false,
-  atoConcessaoPensao: false,
 }
 
 export interface PensionerContentType {

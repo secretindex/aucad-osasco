@@ -60,36 +60,6 @@ const pensionerObj: PensionerDocs = {
       },
     ],
   },
-  pis: {
-    name: "PIS/PASEP ou NIT",
-    required: true,
-    present: false,
-  },
-  comprovacaoInvalidez: {
-    name: "Declarado inválido",
-    required: true,
-    present: false,
-    optionList: [
-      {
-        label: "sim",
-        value: "inv/s",
-        children: [
-          {
-            label: "presente",
-            value: "inv/s/p",
-          },
-          {
-            label: "ausente",
-            value: "inv/nc",
-          },
-        ],
-      },
-      {
-        label: "não",
-        value: "inv/n",
-      },
-    ],
-  },
   comprovanteEstadoCivil: {
     name: "Comprovante Estado Civil",
     required: true,
@@ -153,91 +123,6 @@ const pensionerObj: PensionerDocs = {
         value: "menor",
       },
     ],
-  },
-  identidadeExServidor: {
-    name: "Identidade Ex Servidor",
-    required: true,
-    present: false,
-    optionList: [
-      {
-        label: "requerido",
-        value: "ide/v",
-        children: [
-          {
-            label: "presente",
-            value: "ide/v/s",
-          },
-          {
-            label: "ausente",
-            value: "ide/v/a",
-          },
-        ],
-      },
-      {
-        label: "nao requerido",
-        value: "ide/n",
-      },
-    ],
-  },
-  certidaoObitoExServidor: {
-    name: "Certidão de Óbito do Ex Servidor",
-    required: true,
-    present: false,
-    optionList: [
-      {
-        label: "requerido",
-        value: "co/r",
-        children: [
-          {
-            label: "presente",
-            value: "co/r/s",
-          },
-          {
-            label: "ausente",
-            value: "co/r/a",
-          },
-        ],
-      },
-      {
-        label: "nao requerido",
-        value: "co/n",
-      },
-    ],
-  },
-  atoNomeacaoExServidor: {
-    name: "Ato de Nomeação Ex Servidor",
-    required: true,
-    present: false,
-    optionList: [
-      {
-        label: "requerido",
-        value: "ato/r",
-        children: [
-          {
-            label: "presente",
-            value: "ato/r/s",
-          },
-          {
-            label: "ausente",
-            value: "ato/r/a",
-          },
-        ],
-      },
-      {
-        label: "nao requerido",
-        value: "ato/n",
-      },
-    ],
-  },
-  atoConcessaoPensao: {
-    name: "Portaria de Concessão da Pensão",
-    required: true,
-    present: false,
-  },
-  declaracaoBeneficioPrevidenciario: {
-    name: "Declaração de Benefício Previdenciário",
-    required: true,
-    present: false,
   },
 }
 
