@@ -12,7 +12,7 @@ const AditionalTexts: AdTextList = [
   },
   {
     name: "Identidade do Conjuge",
-    text: "Enviar documento de identidade do cônjuge (frente e verso);",
+    text: "- Enviar documento de identidade do cônjuge (frente e verso);",
   },
   {
     name: "Comprovante sem data",
