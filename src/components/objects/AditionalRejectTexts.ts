@@ -15,6 +15,10 @@ const AditionalTexts: AdTextList = [
     text: "- Enviar documento de identidade do cônjuge (frente e verso);",
   },
   {
+    name: "CTPS Série e número",
+    text: "Obs: Enviar foto da página da Carteira de Trabalho com série e número visíveis;",
+  },
+  {
     name: "Comprovante sem data",
     text: "Obs: Comprovante enviado não possui data de emissão. Favor, enviar outro comprovante dentro do prazo acima;",
   },
